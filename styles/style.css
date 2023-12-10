@@ -1,0 +1,336 @@
+/* :root{
+  --
+} */
+
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: capitalize;
+}
+
+.serhead,
+.workhead,
+.bloghead,
+h2 {
+  text-transform: uppercase;
+  position: relative;
+}
+
+.serhead,
+.workhead,
+.bloghead {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*************************/
+/******** navbar *********/
+/*************************/
+
+#navbarTogglerDemo01 form {
+  display: none !important;
+}
+
+nav {
+  z-index: 1;
+}
+
+/*************************/
+/******** header *********/
+/*************************/
+
+header {
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  background-image: url(Images/intro-bg.jpg);
+}
+
+.homelayer1 {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  background-color: #11141892;
+}
+
+/************************/
+/******** about *********/
+/************************/
+
+.aboutme {
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+#about row {
+  border: black solid 1rem;
+  box-shadow: black 1rem 0rem 1rem;
+}
+
+#about img {
+  border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+  -o-border-radius: 0.3rem;
+}
+
+.html {
+  position: relative;
+}
+
+.css3 {
+  position: relative;
+}
+
+.php {
+  position: relative;
+}
+
+.javascaript {
+  position: relative;
+}
+
+.sercont h4 {
+  text-transform: uppercase;
+}
+
+/************************/
+/******* services *******/
+/************************/
+
+.sernumbs {
+  background-image: url(Images/counters-bg.jpg);
+  /* width: 100%; */
+  background-attachment: fixed;
+}
+
+.sercont {
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+/************************/
+/********* work *********/
+/************************/
+
+.workpart img {
+  width: 100%;
+}
+
+.afterwork {
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  background-image: url(Images/overlay-bg.jpg);
+}
+
+.afterwork img {
+  border-radius: 5rem;
+  -webkit-border-radius: 5rem;
+  -moz-border-radius: 5rem;
+  -ms-border-radius: 5rem;
+  -o-border-radius: 5rem;
+}
+
+.afterworklayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0077ff;
+  opacity: 0.7;
+}
+
+/********************/
+/******* blog *******/
+/********************/
+
+.blogblog h3 {
+  font-size: larger;
+}
+
+.blogblog h3 {
+  font-size: larger;
+}
+
+.blogimg img {
+  width: 100%;
+}
+
+.blogcont a {
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.title {
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.title:hover {
+  color: #0077ff !important;
+}
+
+.blogend img{
+width: 25%;
+}
+
+/***********************/
+/******* contact *******/
+/***********************/
+
+#contact {
+  background-image: url(Images/overlay-bg.jpg);
+  background-attachment: fixed;
+}
+
+#contact label {
+  display: none !important;
+}
+
+#contact button {
+  border-radius: 5rem;
+  -webkit-border-radius: 5rem;
+  -moz-border-radius: 5rem;
+  -ms-border-radius: 5rem;
+  -o-border-radius: 5rem;
+}
+
+.contcont {
+  border-radius: 0.11rem;
+  -webkit-border-radius: 0.11rem;
+  -moz-border-radius: 0.11rem;
+  -ms-border-radius: 0.11rem;
+  -o-border-radius: 0.11rem;
+}
+
+footer a {
+  color: white;
+}
+
+/************************/
+/**** before & after ****/
+/************************/
+
+.serhead::after {
+  content: "";
+  position: absolute;
+  background-color: #0078ff;
+  width: 4rem;
+  margin: 0 auto;
+  height: 0.3rem;
+  right: 47%;
+}
+
+.workhead::after {
+}
+
+.bloghead::after {
+}
+
+.aboutme::after {
+  content: "";
+  position: absolute;
+  width: 5rem;
+  height: 0.2rem;
+  left: 0;
+  bottom: 0;
+  background-color: #0078ff;
+}
+
+.html::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0.5rem;
+  bottom: 0.3rem;
+  left: 0;
+  background-color: #cde1f8;
+}
+
+.html::after {
+  content: "";
+  position: absolute;
+  width: 85%;
+  height: 0.5rem;
+  bottom: 0.3rem;
+  left: 0;
+  background-color: #0078ff;
+}
+
+.css3::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0.5rem;
+  bottom: 0.3rem;
+  left: 0;
+  background-color: #cde1f8;
+}
+
+.css3::after {
+  content: "";
+  position: absolute;
+  width: 75%;
+  height: 0.5rem;
+  bottom: 0.3rem;
+  left: 0;
+  background-color: #0078ff;
+}
+
+.php::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0.5rem;
+  bottom: 0.3rem;
+  left: 0;
+  background-color: #cde1f8;
+}
+
+.php::after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 0.5rem;
+  bottom: 0.3rem;
+  left: 0;
+  background-color: #0078ff;
+}
+
+.javascaript::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0.5rem;
+  bottom: 0.3rem;
+  left: 0;
+  background-color: #cde1f8;
+}
+
+.javascaript::after {
+  content: "";
+  position: absolute;
+  width: 90%;
+  height: 0.5rem;
+  bottom: 0.3rem;
+  left: 0;
+  background-color: #0078ff;
+}
